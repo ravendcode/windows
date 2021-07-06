@@ -14,7 +14,6 @@ DOSKEY alias=type %USERPROFILE%\profile.cmd
 :: DOSKEY g=gradle $*
 DOSKEY c=cd %USERPROFILE%/Code
 DOSKEY cppcode=cd %USERPROFILE%/Code/cpp
-DOSKEY dcode=cd %USERPROFILE%/Code/dotnet
 DOSKEY jcode=cd %USERPROFILE%/Code/java
 DOSKEY ncode=cd %USERPROFILE%/Code/node
 DOSKEY wcode=cd %USERPROFILE%/Code/web
