@@ -1,7 +1,7 @@
 @echo off
 
 :: d:
-cd %USERPROFILE%
+:: cd %USERPROFILE%
 
 :: Commands
 DOSKEY ls=dir /B
