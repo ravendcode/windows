@@ -1,0 +1,12 @@
+run:
+  wmic baseboard get product # show model name motherboard
+  shell:startup # add autoload programs
+  services.msc # открыть службы
+  netstat -ano|findstr "PID :8000" # какой pid у порта
+  taskkill /pid YOUR_PID /f # убить процесс
+  control /name microsoft.system # классическое меню
+  ping google.de -l 64000 -t
+  ping google.de -l 64000 -n 20
+  SystemPropertiesAdvanced
+  C:\Windows\System32\calc.exe
+  msinfo32 # сведенья о системе (режим биос)
