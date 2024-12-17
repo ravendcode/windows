@@ -7,6 +7,8 @@ run:
   control /name microsoft.system # классическое меню
   ping google.de -l 64000 -t
   ping google.de -l 64000 -n 20
+  ping google.de -n 20
   SystemPropertiesAdvanced
   C:\Windows\System32\calc.exe
   msinfo32 # сведенья о системе (режим биос)
+  shell:startup # добавить ярклык в автозагрузку

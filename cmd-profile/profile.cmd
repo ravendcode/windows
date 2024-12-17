@@ -23,6 +23,7 @@ DOSKEY pycode=cd %USERPROFILE%/Code/py
 DOSKEY wcode=cd %USERPROFILE%/Code/web
 DOSKEY rcode=cd %USERPROFILE%/Code/react
 DOSKEY ngcode=cd %USERPROFILE%/Code/ng
+DOSKEY gd=cd /d D:/Godot/Projects
 
 :: Git
 DOSKEY gs=git status
